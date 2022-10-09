@@ -1,0 +1,127 @@
+.footer-container {
+    margin-left: 24px;
+    margin-right: 24px;
+    padding-bottom: 72px;
+}
+
+.footer-border {
+    color: rgb(232,234,237);
+    border-bottom: 1px solid;
+    margin-bottom: 36px;
+    padding-top: 36px;
+    width: 100%;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 24px;
+}
+
+.f-title {
+    color: rgb(95,99,104);
+    line-height: 32px;
+    font-size: .875rem;
+    letter-spacing: .0178571429em;
+    font-weight: 500;
+    float: left;
+}
+
+.f-texts {
+    display: block;
+    width: max-content;
+}
+
+.f-text {
+    color: rgb(95,99,104);
+    line-height: 32px;
+    font-size: .875rem;
+    letter-spacing: .0142857143em;
+    font-weight: 400;
+    width: max-content;
+}
+
+.footer-bottom {
+    margin-top: 32px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.f-b-texts {
+    color: rgb(95,99,104);
+    font-size: .75rem;
+    line-height: 48px;
+    margin-right: 24px;
+}
+
+.footer-country {
+    display: grid;
+    grid-template-columns: repeat(2,max-content);
+    grid-template-rows: 1fr;
+    column-gap: 12px;
+}
+
+.footer-country img {
+    align-self: center;
+    width: 24px;
+    height: 18px;
+}
+
+.f-texts {
+    color: rgb(95,99,104);
+}
+
+.f-texts:hover {
+    color: #01875f;
+}
+
+.f-text:hover {
+    color: #01875f;
+}
+
+@media screen and (min-width: 600px) {
+    .footer-container {
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+}
+
+@media screen and (min-width: 840px) {
+    .footer-container {
+        padding-bottom: 16px;
+    }
+
+    .footer-content {
+        column-gap: 16px;
+        grid-template-columns: 244px auto;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .footer-container {
+        margin-left: 72px;
+        margin-right: 72px;
+    }
+
+    .footer-content {
+        column-gap: 24px;
+        grid-template-columns: 266px auto;
+    }
+
+    .f-b-texts {
+        margin-right: 32px;
+    }
+
+    .f-country {
+        margin-left: auto;
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .footer-container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1296px;
+    }
+}

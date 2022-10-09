@@ -1,0 +1,85 @@
+#topChart {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.top-chart-header {
+    margin-left: 24px;
+    margin-right: 24px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.top-chart-head {
+    color: rgb(32,33,36);
+    line-height: 1.5rem;
+    font-size: 1.125rem;
+    letter-spacing: 0;
+    font-weight: 500;
+}
+
+.top-chart-button {
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 8px;
+}
+
+.top-chart-button-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.top-button {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    height: 32px;
+    letter-spacing: .25px;
+    line-height: 18px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    z-index: 0;
+    border-radius: 9999px;
+    padding: 1px;
+    border: 1px rgb(218,220,224) solid;
+}
+
+.top-button:hover {
+    background-color: rgb(244, 245, 247);
+}
+
+.top-span {
+    align-items: center;
+    display: flex;
+    position: relative;
+    margin: 0 16px;
+}
+
+.top-span span {
+    display: inline-block;
+    margin: 6px 4px;
+}
+
+@media screen and (min-width: 600px) {
+    .top-chart-header, .top-chart-button {
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .top-chart-header, .top-chart-button  {
+        margin-left: 72px;
+        margin-right: 72px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .top-chart-header, .top-chart-button  {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1296px;
+    }
+}

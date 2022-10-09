@@ -1,0 +1,232 @@
+#recommended {
+    margin-bottom: 43px;
+}
+
+.recommended-header {
+    margin-left: 24px;
+    margin-right: 24px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.recommended-text {
+    color: rgb(32,33,36);    
+    line-height: 1.5rem;
+    font-size: 1.125rem;
+    letter-spacing: 0;
+    font-weight: 400;
+    font-weight: 500;
+}
+
+.recommended-container {
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.r-container {
+    display: flex;
+    gap: 24px;
+    padding: calc(24px/2) 0;
+}
+
+.r-box {
+    width: calc(100vw - 48px);
+}
+
+.r-content {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    position: relative;
+    outline: none;
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.r-image, .r-image img {
+    border-radius: 8px;
+    object-fit: cover;
+    width: calc(100vw - 48px);
+}
+
+.r-image img {
+    height: calc(calc(100vw - 48px)*9/16);
+}
+
+.r-description {
+    column-gap: 16px;
+    display: grid;
+    grid-template-columns: max-content auto;
+    margin: 16px 0;
+}
+
+.r-description img {
+    border-width: 0;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+    border-radius: 12px;
+    height: 56px;
+    width: 56px;
+}
+
+.r-texts {
+    display: grid;
+    grid-template-rows: max-content;
+    height: fit-content;
+    row-gap: 2px;
+}
+
+.r-text {
+    align-items: center;
+    display: inline-flex;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.r-title {
+    color: rgb(32,33,36);
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    letter-spacing: -.2px;
+}
+
+.r-desc, .r-rate .ratee  {
+    color: rgb(95,99,104);
+    line-height: 1rem;
+    font-size: .75rem;
+    font-weight: 400;
+    letter-spacing: .2px;
+}
+
+.r-rate, .r-star {
+    align-items: center;
+    display: inline-flex;
+    height: 100%;
+}
+
+.r-star {
+    padding-left: 2px;
+}
+
+.r-star i {
+    color: rgb(95,99,104);
+    font-size: .625rem;
+}
+
+@media screen and (min-width: 600px) {
+    .recommended-header {
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+
+    .recommended-container {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    /* .r-container {
+        padding-left: 40px;
+    } */
+
+    .r-box, .r-image, .r-image img  {
+        width: calc(75vw - 76px);
+    }
+
+    .r-image img {
+        height: calc(calc(75vw - 76px)*9/16);
+    }
+}
+
+@media screen and (min-width: 840px) {
+    .r-box, .r-image, .r-image img  {
+        width: calc(50vw - 56px);
+    }
+
+    .r-image img {
+        height: calc(calc(50vw - 56px)*9/16);
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .r-box , .r-image, .r-image img {
+        width: calc((100vw - 128px)/3);
+    }
+
+    .r-image img {
+        height: calc(calc((100vw - 128px)/3)*9/16);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .recommended-header {
+        margin-left: 72px;
+        margin-right: 72px;
+    }
+
+    .recommended-text {
+        line-height: 1.75rem;
+        font-size: 1.375rem;
+        letter-spacing: 0;
+        font-weight: 400;
+        font-weight: 500;
+    }
+
+    .recommended-container {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .r-container {
+        padding-left: unset;
+    }
+
+    .r-box, .r-image, .r-image img  {
+        width: calc(33.3333333333vw - 64px);
+    }
+
+    .r-image img {
+        height: calc(calc(33.3333333333vw - 64px)*9/16);
+    }
+
+    .r-description img {
+        height: 64px;
+        width: 64px;
+    }
+
+    .r-texts {
+        row-gap: 0;
+    }
+
+    .r-title {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5rem;
+        letter-spacing: 0;
+    }
+
+    .r-desc, .r-rate .ratee  {
+        font-size: .875rem;
+        font-weight: 400;
+        line-height: 1.25rem;
+        letter-spacing: .2px;
+    }
+
+    .r-star i {
+        font-size: .75rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .recommended-header {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1296px;
+    }
+
+    .recommended-container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1320px
+    }
+}

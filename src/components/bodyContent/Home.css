@@ -1,0 +1,17 @@
+#home {
+    margin-top: 80px;
+}
+
+@media screen and (min-width: 840px) {
+    #home {
+        margin-top: 88px;
+    }
+}
+
+.showSwiper .swiper-button-next ,.showSwiper .swiper-button-prev {
+    display: flex;
+}
+
+.hideSwiper .swiper-button-next ,.hideSwiper .swiper-button-prev {
+    display: none;
+}
