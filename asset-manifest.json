@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/playstore-page/static/css/main.5964628a.css",
+    "main.js": "/playstore-page/static/js/main.94ecbee5.js",
+    "static/js/787.64b066bf.chunk.js": "/playstore-page/static/js/787.64b066bf.chunk.js",
+    "static/media/google-ads-image-2.jpeg": "/playstore-page/static/media/google-ads-image-2.650fea0768afba0fdace.jpeg",
+    "static/media/recommend4.webp": "/playstore-page/static/media/recommend4.bc1ea7d1412a81f5b090.webp",
+    "static/media/google-ads-image.jpeg": "/playstore-page/static/media/google-ads-image.15244b3d37eb2c79c275.jpeg",
+    "static/media/recommend3.jpeg": "/playstore-page/static/media/recommend3.599b97cdfdc528c40614.jpeg",
+    "static/media/chart4.webp": "/playstore-page/static/media/chart4.50eee3a1bd9a492afb87.webp",
+    "static/media/chart5.webp": "/playstore-page/static/media/chart5.cf2c81f834779be54da2.webp",
+    "static/media/chart7.webp": "/playstore-page/static/media/chart7.a1a24e1b0d66fd5fc6e2.webp",
+    "static/media/chart6.webp": "/playstore-page/static/media/chart6.1e67f0c71f405a0819e4.webp",
+    "static/media/chart2.webp": "/playstore-page/static/media/chart2.0be01693faa10879d60f.webp",
+    "static/media/chart1.webp": "/playstore-page/static/media/chart1.1c126409e48fe95f68e1.webp",
+    "static/media/chart8.webp": "/playstore-page/static/media/chart8.7b850d9e95415b00fdf2.webp",
+    "static/media/recommend2.jpeg": "/playstore-page/static/media/recommend2.084d2946396d02410623.jpeg",
+    "static/media/recommend1.jpeg": "/playstore-page/static/media/recommend1.985c2d629f4aa451c579.jpeg",
+    "static/media/chart3.webp": "/playstore-page/static/media/chart3.efb709ec442e6d0849f7.webp",
+    "static/media/recommend5.jpeg": "/playstore-page/static/media/recommend5.4ee44d8bb5d73e039076.jpeg",
+    "static/media/recommend6.jpeg": "/playstore-page/static/media/recommend6.c9a1e8baec53bc24f0a8.jpeg",
+    "static/media/chart9.webp": "/playstore-page/static/media/chart9.72f6becf7ba6affe3997.webp",
+    "static/media/Googleplayimage.svg": "/playstore-page/static/media/Googleplayimage.c9b44b4ce1abd4c124a85632937d0e9d.svg",
+    "static/media/logo.svg": "/playstore-page/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/playstore-page/index.html",
+    "main.5964628a.css.map": "/playstore-page/static/css/main.5964628a.css.map",
+    "main.94ecbee5.js.map": "/playstore-page/static/js/main.94ecbee5.js.map",
+    "787.64b066bf.chunk.js.map": "/playstore-page/static/js/787.64b066bf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5964628a.css",
+    "static/js/main.94ecbee5.js"
+  ]
+}
